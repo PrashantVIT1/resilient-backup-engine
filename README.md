@@ -4,7 +4,7 @@ A fault-tolerant C++ backup and restore tool that performs reliable file backups
 Commands:
 To create backup
 ```bash
-g++ src\main.cpp -o backup_tool.exe
+g++ src\*.cpp -I include -o backup_tool.exe
 ```
 To create the backup
 ```bash
